@@ -54,9 +54,14 @@ body {
     margin-left: 2rem;
 }
 
-.synopsis {
+.synopsis, .netflixLink, .wikiLink {
     color: white;
     font-size: 1rem;
     margin-left: 2rem;
     margin-right: 12rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
 }
