@@ -1,193 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Ranking</title>
-    <link rel = "stylesheet" href = "./index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Movie Ranking</title>
+        <link rel = "stylesheet" href = "./css/main.css"> <!-- main design -->
+        <link rel = "stylesheet" href = "./css/fonts.css"> <!-- font definitions -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <style>
+            .content-item {
+                background-image:url('./assets/starry-sky.gif');  /* Edit this per page.*/
+            }
 
-        p { font-size: 1rem; }
-
-        .poppins-extralight {
-            font-family: "Poppins", serif;
-            font-weight: 200;
-            font-style: normal;
-        }
-        
-        .poppins-light {
-            font-family: "Poppins", serif;
-            font-weight: 300;
-            font-style: normal;
-        }
-        
-        .poppins-regular {
-            font-family: "Poppins", serif;
-            font-weight: 400;
-            font-style: normal;
-        }
-        
-        .poppins-medium {
-            font-family: "Poppins", serif;
-            font-weight: 500;
-            font-style: normal;
-        }
-            
-        .poppins-bold {
-            font-family: "Poppins", serif;
-            font-weight: 700;
-            font-style: normal;
-        }
-    </style>
-</head>
+            .dark-container {
+                background-color: #00000098; /*adjust here for container brightness/darkness. Higher values at the end darkens more the container. */
+                height: inherit;
+                padding-bottom: 1px;
+            }
+        </style>
+    </head>
 <body class = "poppins-extralight">
-    <section id = "intro" style = "margin: 0rem 3rem 1rem;">
-        <h2 class = "poppins-medium"> Series are a way to engage one's imagination, and fuel one's fantasy. It is a portal to
-            an endless maze of art, full of scenes which stroke the mind and impact the heart. </h2>
-            
-        <p> Whether it's the thrill of action, some spine-chilling horror, the lighthearted joy of comedy, 
-            or the heartfelt moments of love, series and shows hold a special place in everyone's heart. 
-            This project is a personal exploration of my favorite ones, spanning genres and eras, 
-            each of which has left a big mark on my life. </p>
-            
-        <p> Join me as I celebrate these cinematic gems that have inspired, entertained, and moved me 
-            in countless ways.</p>
-    </section>
-
-    <!--Main body section-->
-    <section id = "movies-container">
-        <div class = "grid-container">
-            <div id = "regular-item">
-                <img src = "assets/regular-show-cover.jpg" />
-                <h3>Regular Show</h3>
-            </div>
-            <div id = "gumball-item">
-                <img src = "assets/the-amazing-cover.jpg" />
-                <h3>The Amazing World of Gumball</h3>
-            </div>
-            <div id = "heist-item">
-                <img src = "assets/money-heist-cover.jpg" />
-                <h3>Money Heist</h3>
-            </div>
-            <div id = "saikiK-item">
-                <img src = "assets/saiki-k-cover.jpg" />
-                <h3>The Disastrous Life of Saiki K.</h3>
-            </div>
-            <div id = "kitchen-item">
-                <img src = "assets/hells-kitchen-cover.jpg" />
-                <h3>Hell's Kitchen</h3>
-            </div>
-            <div id = "asobi-item">
-                <img src = "assets/asobi-asobase-cover.jpg" />
-                <h3>Asobi Asobase</h3>
-            </div>
-            <div id = "kakegurui-item">
-                <img src = "assets/kakegurui-cover.jpg" />
-                <h3>Kakegurui</h3>
-            </div>
-            <div id = "kingdom-card">
-                <img src = "assets/kingdom-cover.jpg" />
-                <h3>Kingdom</h3>
-            </div>
-            <div id = "alice-card">
-                <img src = "assets/alice-borderland-cover.jpg" />
-                <h3>Alice in Borderland</h3>
-            </div>
+    <div class = "content-item">
+        <div class = "dark-container">
+            <section class = "navbar">
+                <div class = "navbar-item-1"><img src = "assets/aelexander-white-nobg.png" width = "120" height = "120" /></div>
+                <div class = "navbar-item-2"><a href = "#" class = "active">home</a></div>
+                <div class = "navbar-item-3"><a href = "#">catalogue</a></div>
+                <div class = "navbar-item-3"><a href = "#">about</a></div>
+            </section>
+            <section class = "content">  
+                <h5 class = "poppins-medium"> Series are a way to engage one's imagination, and fuel one's fantasy. It is a portal to
+                    an endless maze of art, full of scenes which stroke the mind and impact the heart. </h5>
+                    
+                <p> Whether it's the thrill of action, the lighthearted joy of comedy, some spine-chilling horror,  
+                    or the heartfelt moments of love, series and shows hold a special place in everyone's heart. 
+                    This project is a personal exploration of my favorite ones, spanning genres and eras, 
+                    each of which has left a big mark on my life. </p>
+                    
+                <p> Join me as I celebrate these cinematic gems that have inspired, entertained, and moved me 
+                    in countless ways.</p>    
+            </section>
         </div>
-    </section>
-
-    <section id = "movie-list">
-        <dl>
-            <dt>Regular Show</dt>
-                <dd>
-                    Regular Show is undeniably my most favorite one out of this list.
-                    It is a (quite-PG) cartoon series following the lives
-                    of Mordecai, Rigby, and their friends at the park where they work at.
-                    The show follows a formula of mischief, scientific fantasies which boggles
-                    the mind, and at least one count of their boss Benson threatening to fire them. 
-                </dd>
-            <dt>The Amazing World of Gumball</dt>
-                <dd>
-                    The world of this cartoon--no pun intended--is very rich and vibrant. Every 
-                    character has their own charms and depth, enabling a sweet ride back to
-                    one's childhood. Although the show's vibes are very apparently for kids, the
-                    show sports some crude humor that a child can only understand once they're older.
-                </dd>
-            <dt>Money Heist</dt>
-                <dd>
-                    The first real-life crime drama series in this list follows a band of thieves 
-                    who come together under the guidance of "The Professor" to pull off some of
-                    the most ambitious heists in history. Driven by rebellion and greed, 
-                    their journey is chock-full of guns blazing, smart plans, 
-                    and heart-stopping twists. With a striking musical theme, 
-                    especially the iconic Bella Ciao, this drama offers viewers an 
-                    intense package of mystery, pain, passion, and raw emotion. 
-                </dd>
-            
-            <br />
-
-            <dt>The Disastrous Life of Saiki K.</dt>
-                <dd>
-                    This hilarious slice-of-life anime takes you through a psychic--named 
-                    Saiki Kusuo--and his attempts to lead a normal life despite his 
-                    (admittedly-overpowered) abilities. He also gains some friends throughout the 
-                    show who, altogether, lights its audience up with their dynamic. It's a 
-                    great humor-filled series that's also quite immersive.
-                </dd>
-            <dt>Hell's Kitchen</dt>
-                <dd>
-                    At this point, who hasn't heard of Gordon Ramsay? His cooking show Hell's Kitchen
-                    has been a childhood favorite of mine. Chefs from all walks of life battle it 
-                    out in a cutthroat kitchen for the chance to achieve their dreams. 
-                    From prep to dinner service, along with Gordon's signature temper, Hell's Kitchen 
-                    presents its watchers with a solid mix of shouting intensity and culinary art.
-                </dd>
-            <dt>Asobi Asobase</dt>
-                <dd>
-                    At first glance, Asobi Asobase seems like an innocent comedy about three schoolgirls 
-                    forming a club to pass time. But, it is anything but ordinary. The trio's 
-                    misadventures are packed with unexpected, absurd humor that keeps even its loyal
-                    watchers guessing! With exaggerated reactions and bizarre situations, 
-                    it's a rollercoaster of chaos and comedy that will leave you in stitches. 
-                    The ridiculousness of it all makes Asobi Asobase one of the series that I 
-                    religiously rewatch.
-                </dd>
-            
-            <br />
-
-            <dt>Kakegurui</dt>
-                <dd>
-                    Welcome to Hyakkaou Private Academy, where gambling isn't just a pastime—it's 
-                    everything. Students risk their fortunes, reputations, and futures in high-stakes 
-                    games that could make or break them. All until Yumeko Jabami, a seemingly sweet girl 
-                    with a shocking love for the thrill of gambling, comes to play. With its stunning 
-                    animation, intense psychological battles, and magnificent drama, Kakegurui is a 
-                    wild ride that explores amazing twists in the game, with a flavor of showing just
-                    how much people are willing to gamble away.
-                </dd>
-            <dt>Kingdom</dt>
-                <dd>
-                    Set in Korea’s Joseon Dynasty, Kingdom blends historical drama with a gripping, 
-                    blood-curdling twist. When a mysterious plague begins turning people into ravenous 
-                    monsters, Crown Prince Lee Chang must uncover the truth behind the epidemic 
-                    while battling political conspiracies that threaten his throne. With its breathtaking 
-                    cinematography, intense action, and intricate plot, Kingdom delivers a chilling tale 
-                    of survival, power, and humanity amidst an undead apocalypse. It’s a perfect mix of 
-                    suspense, horror, and historical intrigue that will leave you hooked.
-                </dd>
-            <dt>Alice in Borderland</dt>
-                <dd>
-                    Imagine ending up in a deserted Tokyo where it seems as if you were the most-first 
-                    one there--that's the terrifying reality in Alice in Borderland. This show sports
-                    some of the most amazing games Arisu and his friends end up in, games where 
-                    intelligence, strength, teamwork, and the will to betray are the only ways to survive. 
-                    With what it delivers, this show pulls you in from the first moment and doesn't let go. 
-                    It's a heart-pounding journey through a world where survival is the ultimate prize.
-                </dd>
-        </dl>
-    </section>
+    </div>
 </body>
-</html>

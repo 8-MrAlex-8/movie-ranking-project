@@ -1,0 +1,31 @@
+/* Font definitions */
+
+.poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular, p {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+    
+.poppins-bold, h1 {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
